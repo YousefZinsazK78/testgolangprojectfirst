@@ -7,6 +7,7 @@ import (
 	exdatatypes "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_data_types"
 	exfunction "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_function"
 	expointer "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_pointer"
+	exstruct "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_struct"
 	exvariable "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_variable"
 )
 
@@ -55,4 +56,10 @@ func main() {
 
 	//call declare pointer to define pointer variable
 	expointer.DeclarePointer()
+
+	//divide output
+	fmt.Println("====================")
+
+	//call exstruct to define and show values of struct
+	exstruct.ShowStruct()
 }
