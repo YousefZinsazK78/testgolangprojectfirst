@@ -24,4 +24,22 @@ func ShowStruct() {
 	fmt.Println("Person value : ", per)
 	fmt.Println("Person name : ", per.Name)
 	fmt.Println("Person age : ", per.Age)
+
+	fmt.Println("===========use method of employeer and person struct =========")
+	fmt.Println(person.GetSalary())
+	fmt.Println(person.GetName())
+	fmt.Println(person.GetAge())
+	fmt.Println("===========use method of employeer and person struct =========")
+}
+
+func (p Person) GetSalary() string {
+	return fmt.Sprintf("%s has 2000$ salary!", p.Name)
+}
+
+func (p Person) GetName() string {
+	return fmt.Sprintf("%s is best employee", p.Name)
+}
+
+func (p Person) GetAge() string {
+	return fmt.Sprintf("%s is %v years old.", p.Name, p.Age)
 }
