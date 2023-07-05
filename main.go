@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	excontrolflow "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_control_flow"
+	exdatatypes "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_data_types"
 	exfunction "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_function"
 	exvariable "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_variable"
 )
@@ -39,4 +40,12 @@ func main() {
 	//divide output
 	fmt.Println("====================")
 
+	//call DeclareArray to define and show array and value of that.
+	exdatatypes.DeclareArray()
+
+	//call DeclareSlice to define and show slice and value of that.
+	exdatatypes.DeclareSlice()
+
+	//call DeclareMap to define and show map and value of that.
+	exdatatypes.DeclareMap()
 }
