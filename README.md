@@ -7,3 +7,6 @@
 5. we talk about data pointer type in pkg/ex_pointer/ex_pointer.go
 6. we talk about struct in pkg/ex_struct/ex_struct.go
 7. we talk about interfaces in pkg/ex_interface/ex_interface.go
+8. we talk about interfaces in pkg/ex_interface/ex_interface.go
+
+> we talk about and write makefiles in our project to automate tasks...
