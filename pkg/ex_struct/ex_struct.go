@@ -1,8 +1,12 @@
 package exstruct
 
-import "fmt"
+import (
+	"fmt"
 
-//Person is to store person information.
+	exinterface "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_interface"
+)
+
+// Person is to store person information.
 type Person struct {
 	Name string
 	Age  int
@@ -30,6 +34,8 @@ func ShowStruct() {
 	fmt.Println(person.GetName())
 	fmt.Println(person.GetAge())
 	fmt.Println("===========use method of employeer and person struct =========")
+
+	callMethod(per)
 }
 
 func (p Person) GetSalary() string {
@@ -42,4 +48,10 @@ func (p Person) GetName() string {
 
 func (p Person) GetAge() string {
 	return fmt.Sprintf("%s is %v years old.", p.Name, p.Age)
+}
+
+func callMethod(e exinterface.Employeer) {
+	fmt.Println(e.GetSalary())
+	fmt.Println(e.GetName())
+	fmt.Println(e.GetAge())
 }
