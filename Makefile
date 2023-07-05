@@ -9,4 +9,4 @@ run:
 
 clean:
 	go clean
-	rm ${BINARYNAME}
+	del ${BINARYNAME}
