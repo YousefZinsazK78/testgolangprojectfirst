@@ -6,6 +6,7 @@ import (
 	excontrolflow "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_control_flow"
 	exdatatypes "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_data_types"
 	exfunction "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_function"
+	expointer "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_pointer"
 	exvariable "github.com/yousefzinsazk78/testgolangprojectfirst/pkg/ex_variable"
 )
 
@@ -48,4 +49,10 @@ func main() {
 
 	//call DeclareMap to define and show map and value of that.
 	exdatatypes.DeclareMap()
+
+	//divide output
+	fmt.Println("====================")
+
+	//call declare pointer to define pointer variable
+	expointer.DeclarePointer()
 }
