@@ -10,3 +10,19 @@
 8. we talk about interfaces in pkg/ex_interface/ex_interface.go
 
 > we talk about and write makefiles in our project to automate tasks...
+
+> we talk about go module
+> we can name our module with this command
+> go mod init github.com/yourgithubusername/yourprojectname
+> and valla you set your module name and now you have go.mod that is have your module 
+> information like what is your module name or path and your go version in this project
+> and after that we have our dependencies that is direct or indirect uses in project.
+>
+> after that we talk about go get module_name@latest 
+> this is command help us to download and put it in go.mod file and we can imported in our 
+> modules files and use it....
+>
+> we can use go get package_name to get package
+> use go get -u package_name to get latest update
+> use got get package_name@v0.2.0 to get version v0.2.0 of package_name
+> that's it for now, thanks. 😁😁
