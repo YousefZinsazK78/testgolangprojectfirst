@@ -62,4 +62,5 @@ func main() {
 
 	//call exstruct to define and show values of struct
 	exstruct.ShowStruct()
+
 }
