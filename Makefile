@@ -1,8 +1,5 @@
 BINARYNAME = main.out
 
-lint:
-	golangci-lint run
-
 build: 
 	go build -o ${BINARYNAME} main.go
 
@@ -15,3 +12,7 @@ run:
 clean:
 	go clean
 	del ${BINARYNAME}
+
+
+lint:
+	golangci-lint run
